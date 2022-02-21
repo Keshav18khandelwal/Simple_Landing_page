@@ -4,10 +4,9 @@ import pic20 from './images/pic20.jpg';
 import pic18 from './images/pic18.jpg';
 import Fade from 'react-reveal/Fade'
 
-export default function
-  () {
+export default function Home() {
   return (<>
-    <div className='' id="home">
+    <div id="home">
       <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>

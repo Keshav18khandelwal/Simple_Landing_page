@@ -22,10 +22,7 @@ function App() {
       <Pricing/>
       <Footer/>
         <Routes>
-        {/* <Route path="/" element={<Home />,
-      <Item/>,
-      <Pricing/>,
-      <Footer/>}/> */}
+        
           <Route path="#home" element={<Home/>}/>
           <Route path="#items" element={ <Item />}/>
           <Route path="#features" element={<Pricing />}/>

@@ -18,7 +18,7 @@ export default function Item() {
         <h2 className='my-4' style={{"textDecoration":"Underline"}}> Items</h2>
         </Zoom>
        
-        <div className='row ' id="items">
+        <div className='row' id="items">
         <Fade bottom>
           <div className='col-md-4'>
             <Carditem ctitle="Lorem ipsum dolor sit amet." ctext="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae temporibus repellendus, odio adipisci, amet natus ea, iusto dolore tempora cum ut modi iste rerum libero dolorem! Ipsum error cupiditate delectus." curl={pic10} />
